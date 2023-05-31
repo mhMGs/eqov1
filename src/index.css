@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #fcfcfc -278.56%,
+    #ffffff -78.47%,
+    #00f090 91.61% 
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.bg-primary-nav  {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #fff 0.89%,
+    #fff 17.23%,
+    #FFFFFF 42.04%,
+    #ffffff 55.12%,
+    #fff 71.54%,
+    #ffffff 100%
+  );
+}
+
+.bg-primary-h  {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #ffffff 0.89%,
+    #ffffff 17.23%,
+    #ffffff 42.04%,
+    #ffffff 55.12%,
+    #ffffff 71.54%,
+    #ffffff 100%
+  );
+}
+.bg-primary-b {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #ffffff   0.89%,
+    #ffffff   17.23%,
+    #ffffff   42.04%,
+    #ffffff   55.12%,
+    #ffffff   71.54%,
+    #ffffff   100%
+  );
+}
+
+
+.bg-primary-ca {       background: radial-gradient(
+  64.18% 64.18% at 71.16% 35.69%,
+  #def9fa 0.89%,
+  #E2F7ED 17.23%,
+  #C4F0DA 42.04%,
+  #A7E9C8 55.12%,
+  #8BE2B5 71.54%,
+  #00f090 100%
+);
+
+}
+.bg-primary-sc {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #00f090   0.89%,
+    #00f090   17.23%,
+    #00f090   42.04%,
+    #00f090   55.12%,
+    #00f090   71.54%,
+    #00f090   100%
+    );
+}
+.bg-primary-f {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #00f090   0.89%,
+    #00f090   17.23%,
+    #00f090   42.04%,
+    #00f090   55.12%,
+    #00f090   71.54%,
+    #00f090   100%
+    );
+}
+.bg-primary-c  {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #FDFDFD   0.89%,
+    #FDFDFD   17.23%,
+    #FDFDFD   42.04%,
+    #FDFDFD   55.12%,
+    #FDFDFD   71.54%,
+    #FDFDFD   100%
+  );
+
+
+}
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #00f090 0.89%,
+    #00f090 17.23%,
+    #00f090 42.04%,
+    #00f090 55.12%,
+    #00f090 71.54%,
+    #00f090 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #ffffff -21.24%,
+    #ffffff 12.19%,
+    #ffffff 29.82%,
+    #ffffff 51.94%,
+    #ffffff 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #00f090 -78.47%,
+    #00f090 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #E2F7ED -78.47%,
+    #00f090 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    #FFFFFF -341.94%,
+    #00f090 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, #8BE2B5 0%, #21763d 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
